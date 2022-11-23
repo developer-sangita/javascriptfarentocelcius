@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>farenheit to celcius</title>
+    
+</head>
+<body>
+    
+    <input type="text" id="farenheit" placeholder="enter the Farenheit number">
+    <button onclick="sng()">Farenheit to celcius</button>
+    <script>
+        function sng(){
+            var input=document.getElementById("farenheit").value
+            var result=(input-32)*5/9;
+            alert(result)
+        }
+    </script>
+</body>
+</html>
